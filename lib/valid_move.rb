@@ -1,4 +1,4 @@
-def position_taken?(board,index)
+def position_taken?(board,position)
   if (board[position]==" ")
     FALSE
   elsif (board[position]=="")  
