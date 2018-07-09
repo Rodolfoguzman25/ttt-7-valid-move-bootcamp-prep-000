@@ -6,7 +6,7 @@ def position_taken?(board,position)
   elsif (board[position]==nil)
     FALSE
   elsif (board[position]=="X" || array[position]="O")
-    FALSE
+    TRUE
   else
     nil
   end
